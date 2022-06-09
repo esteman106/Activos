@@ -1,0 +1,26 @@
+<section>
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            {notificaciones}
+            <div class="card">
+                <div class="card-block">
+                    <h5 class="card-title mb-4">Solicitudes de Prestamo</h5>
+                    <div class="table-responsive">
+                        <table data-toggle="table" data-url="{url}prestamos/view"  data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-show-export="true" data-sort-order="desc">
+                            <thead>
+                            <tr>
+                                <th data-field="id" data-sortable="true">Solicitud #</th>
+                                <th data-field="nombres"  data-sortable="true">Nombres</th>
+                                <th data-field="descripcion" data-sortable="true">Activo Solicitado</th>
+                                <th data-field="fecha_ini" data-sortable="true">Fecha Inicial</th>
+                                <th data-field="fecha_fin" data-sortable="true">Fecha Final</th>
+                                <th data-field="Opciones" data-sortable="true">Opciones</th>
+                            </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

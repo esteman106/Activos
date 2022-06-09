@@ -1,0 +1,23 @@
+<section>
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-block">
+                    <h5 class="card-title mb-4">Listado de Activos</h5>
+                    <div class="table-responsive">
+                        <table data-toggle="table" data-url="{url}activos/view"  data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-show-export="true" data-sort-order="desc">
+                            <thead>
+                            <tr>
+                                <th data-field="codigo" data-sortable="true">Codigo</th>
+                                <th data-field="descripcion"  data-sortable="true">Descripcion</th>
+                                <th data-field="cantidad" data-sortable="true">Cantidad</th>
+                                <th data-field="Opciones" data-sortable="true">Opciones</th>
+                            </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
