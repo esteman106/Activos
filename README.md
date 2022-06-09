@@ -16,3 +16,5 @@ RewriteRule ^ index.php [QSA,L]
 5 - Configurar la cuenta que realizara el envio de las notificaciones en el archivo Globales.php
 
 6 - Cuenta de usuario por defecto mromero106@gmail.com, contraseña pruebas2014. 
+
+7- La exportacion a excel es posible a traves del sistema de Datatable, presente en cada vista de los controladores disponibles.
